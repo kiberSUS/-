@@ -1,0 +1,40 @@
+body{
+    background-image:url(backgroundimageForLogining.jpeg);
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+}
+.allLogining{
+    width:300px;
+    height:350px;
+    background-color:silver;
+    left:40%;
+    right:50%;
+    top:10%;
+    position:absolute;
+    box-shadow:10px 10px 10px black;
+    z-index:1;
+}
+.allInformaton{
+    z-index:2;
+}
+.name{
+    z-index:2;
+    margin:10px;
+    border-radius:20%;
+    height:50px;
+    box-shadow:2px 2px 2px black;
+}
+.password{
+    z-index:2;
+    margin:10px;
+    border-radius:20%;
+    height:50px;
+    box-shadow:2px 2px 2px black;
+}
+.reg:active{
+    animation:button 0.3s infinite linear;
+}
+@keyframes button{
+    0%{transform: scale(1,1)}
+    100%{transform:scale(0.5,0.5)}
+}

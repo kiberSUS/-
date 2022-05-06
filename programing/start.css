@@ -1,0 +1,41 @@
+body{
+    margin:1px;
+}
+a{
+    color:black;
+}
+.menu{
+    width:50px;
+    height:0px;
+    border:1px solid black;
+    margin:10px;
+}
+.reg1{
+    color:white;
+    text-decoration:none;
+}
+.menuElements{
+    list-style-type:none;
+    position: relative;
+    display:block;
+    color:white;
+    
+}
+header{
+    height:100px;
+}
+.rows:hover{
+    display:block;
+    z-index:2;
+    background-color:white;
+}
+.forFone{
+    background-color:blue;
+}
+div li:hover{
+    color:black;
+    background-color:aqua;
+}
+header:hover{
+    background-color:blue;
+}
